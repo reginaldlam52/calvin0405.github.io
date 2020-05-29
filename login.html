@@ -58,7 +58,7 @@
 
 			<div id="navb" class="navbar-collapse collapse hide">
 				<ul class="nav navbar-nav">
-					<li class="nav-item active now">
+					<li class="nav-item">
 						<a class="nav-link" href="index.html">HOME</a>
 				  	</li>
 
@@ -71,7 +71,7 @@
 					</li>
 						
 					<li class="nav-item dropdown">
-						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">PRODUCTS</a>
+						<a href="products.html" class="nav-link dropdown-toggle" data-toggle="dropdown">PRODUCTS</a>
 						<div class="dropdown-menu">
 							<a href="ps4.html" class="dropdown-item">PLAYSTATION 4</a>
 							<div class="dropdown-divider"></div>
@@ -84,7 +84,7 @@
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="contact.html">CONTACT US</a>
+						<a class="nav-link" href="contact.com">CONTACT US</a>
 				  	</li>
 			 	</ul>
 		  
@@ -93,8 +93,8 @@
 			  			<a class="nav-link" href="sign.html"><span class="fas fa-user"></span> Sign Up</a>
 					</li>
 
-					<li class="nav-item">
-			  			<a class="nav-link" href="login.php"><span class="fas fa-sign-in-alt"></span> Login</a>
+					<li class="nav-item active now">
+			  			<a class="nav-link" href="login.html"><span class="fas fa-sign-in-alt"></span> Login</a>
 					</li>
 		  		</ul>
 			</div>
@@ -103,59 +103,23 @@
 
 	<div class="row">
 		<div class="container-xl">
-			<div class="banner">
-				<img src="https://imagehost.imageupload.net/2020/05/26/Bannerb9308b8387802c38.png" width=100%>
-			</div>
+			
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="col-lg-3"></div>
+		<div class="container-xl">
+			<label for="uname"><b>Username</b></label>
+    		<input type="text" placeholder="Enter Username" name="uname" required>
 
-		<div class="col-lg-6">
-			<div class="container-xl">
-				<div class="carousel slide" id="album-carousel" data-ride="carousel" data-interval="10000">
-					<ol class="carousel-indicators">
-						<li data-target="#album-carousel" data-slide-to="0" class="active"></li>
-						<li data-target="#album-carousel" data-slide-to="1"></li>
-						<li data-target="#album-carousel" data-slide-to="2"></li>
-						<li data-target="#album-carousel" data-slide-to="3"></li>
-						<li data-target="#album-carousel" data-slide-to="4"></li>
-					</ol>
-
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img class="d-block w-100" src="https://imagehost.imageupload.net/2020/05/26/FY20_XboxSuperGameSale_XboxWireHero_940x52893fac2f5ded7bdaf.jpg">
-						</div>
-						
-						<div class="carousel-item">
-							<img class="d-block w-100" src="https://imagehost.imageupload.net/2020/05/26/100-nintendo-switch-accessories-listicle-2019.jpg">
-						</div>
-						
-						<div class="carousel-item">
-							<img class="d-block w-100" src="https://imagehost.imageupload.net/2020/05/26/1559182014_Sony-unveils-massive-summer-PlayStation-sale-1248x703-1.jpg">
-						</div>
-						
-						<div class="carousel-item">
-							<img class="d-block w-100" src="https://imagehost.imageupload.net/2020/05/26/pc-gaming-accessories-amazon-sale.jpg">
-						</div>
-						
-						<div class="carousel-item">
-							<img class="d-block w-100" src="https://imagehost.imageupload.net/2020/05/26/switch-lite-accessories-1562794265669.jpg">
-						</div>
-						   
-						<a href="#album-carousel" class="carousel-control-prev" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						</a>
-						<a href="#album-carousel" class="carousel-control-next" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						</a>
-					</div>
-				</div>
-			</div>
+    		<label for="psw"><b>Password</b></label>
+    		<input type="password" placeholder="Enter Password" name="psw" required>
+        
+    		<button type="submit">Login</button>
+    		<label>
+      			<input type="checkbox" checked="checked" name="remember"> Remember me
+    		</label>
 		</div>
-
-		<div class="col-lg-3"></div>
 	</div>
 
 	<footer>

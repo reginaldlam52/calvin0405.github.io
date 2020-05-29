@@ -67,12 +67,36 @@ header{
 	color: rgb(8, 32, 53);
 }
 
+.now{
+	background: #6c757d;
+	border: 1px solid transparent;
+	border-radius: 5px;
+}
+
 .banner{
 	padding-bottom: 20px;
 }
 
 .carousel{
 	padding-bottom: 20px;
+}
+
+.intro{
+	padding-bottom: 20px;
+}
+
+.heading{
+	color: #17a2b8;
+}
+
+.font{
+	font-size: 17px;
+}
+
+.slogan{
+	color: rgb(8, 32, 53);
+	padding-bottom: 20px;
+	text-align: center;
 }
 
 footer{
